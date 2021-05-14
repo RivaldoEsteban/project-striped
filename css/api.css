@@ -1,0 +1,68 @@
+.API-container {
+  background: white;
+  margin-top: 5rem;
+}
+
+.api-title-description h4 {
+  color: #635cff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  margin: 0;
+}
+.api-title-description h2 {
+  color: #11253e;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 2rem 0;
+  width: 38.75rem;
+}
+
+.api-title-description p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-weight: 400;
+  color: #0a2540;
+  width: 29.18rem;
+}
+
+.api-functionalities {
+  display: flex;
+  gap: 1rem;
+  margin: 5rem 0;
+}
+
+.funcionality {
+}
+
+.funcionality h4 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #11253e;
+}
+
+.funcionality h4::before {
+  content: ".";
+  width: 2px;
+  height: 20px;
+  background: #635cff;
+  color: #635cff;
+  margin-right: 1rem;
+}
+
+.funcionality p {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.funcionality p b {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #635cff;
+}

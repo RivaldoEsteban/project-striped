@@ -1,0 +1,20 @@
+@import "./header.css";
+@import "./hero.css";
+@import "./setOfPayments.css";
+@import "./designet-developers.css";
+@import "./api.css";
+@import "./global-scale.css";
+@import "./ready.css";
+@import "./footer.css";
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  max-width: 1366px;
+  margin: auto;
+  padding: 0 8.93rem;
+  box-sizing: border-box;
+}

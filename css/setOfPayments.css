@@ -1,0 +1,62 @@
+@import "./payment-methods.css";
+@import "./clipPath-background.css";
+
+.setOfPayments {
+  width: 100%;
+  background: linear-gradient(180deg, #fbfcfe 0%, #dde0e5 84.45%),
+    linear-gradient(0deg, #f6f9fc, #f6f9fc);
+  padding: 5rem 0;
+}
+
+.unified-platfom {
+  display: flex;
+  width: inherit;
+  gap: 1.5rem;
+}
+
+.setOfPayments h4 {
+  color: #635cff;
+  font-weight: 700;
+  font-size: 1.12rem;
+  line-height: 2.12rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.setOfPayments h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  max-width: 38.75rem;
+  line-height: 3.12rem;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.unified-platfom div {
+  max-width: 50%;
+}
+
+.unified-platfom div p {
+  font-size: 1.12rem;
+  font-weight: 400;
+  line-height: 2.12rem;
+  margin: 2rem 0;
+  color: #0a2540;
+}
+
+.unified-platfom div p b {
+  color: #635cff;
+}
+
+.unified-platfom div button {
+  background: #635cff;
+  border: 0;
+  padding: 0.5rem 1rem;
+  color: white;
+  border-radius: 100px;
+  font-size: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin: 2rem 0;
+}

@@ -1,0 +1,78 @@
+.clipPath-background {
+  width: 100%;
+  height: 256px;
+  position: relative;
+  background: #dde0e6;
+}
+
+.clipPath1 {
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  background: #dde0e6;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid #dde0e6;
+}
+
+.clipPath2 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 100%);
+  position: absolute;
+  background: #092540;
+  height: 100%;
+  width: 100%;
+}
+
+.clipPath3 {
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  background: #092540;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-top: 1px solid #092540;
+}
+
+.clipPath4 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 100%);
+  position: absolute;
+  background: white;
+  height: 100%;
+  width: 100%;
+}
+
+.clipPath5 {
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 20%);
+  background: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.clipPath6 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 30%);
+  position: absolute;
+  background: #092540;
+  height: 100%;
+  width: 100%;
+}
+
+.clipPath7 {
+  clip-path: polygon(0 0, 100% 0, 100% 0%, 0 100%);
+  background: white;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.clipPath8 {
+  clip-path: polygon(0 100%, 100% 100%, 100% 0%, 0 100%);
+  position: absolute;
+  background: #f6f9fc;
+  height: 100%;
+  width: 100%;
+  /* border: 1px solid white; */
+}
+
+.clipPath-background.footer {
+  background: white;
+  overflow: hidden;
+}

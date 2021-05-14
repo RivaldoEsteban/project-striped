@@ -1,0 +1,31 @@
+.footer-container {
+  background: #f6f9fc;
+}
+
+.footer-content {
+  padding: 5rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content div a {
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  margin: 0.8rem 0;
+  color: #393939;
+}
+
+.footer-content div h4 {
+  display: block;
+  text-transform: capitalize;
+  margin-top: 0;
+  color: #393939;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.title.footer {
+  margin: 1.5rem 0 0.8rem;
+  line-height: 2rem;
+}

@@ -1,0 +1,32 @@
+.payment-methods {
+  width: 100%;
+  position: relative;
+}
+
+.payment-methods div {
+  display: flex;
+  width: 100%;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  justify-content: space-around;
+}
+.payment-methods img {
+}
+
+.img1 {
+  margin-top: 170px;
+  width: 250px;
+}
+
+.img2 {
+  margin-top: 170px;
+  width: 350px;
+}
+
+.img4 {
+  position: relative;
+  bottom: 100px;
+}
+.img5 {
+  width: 650px;
+}
