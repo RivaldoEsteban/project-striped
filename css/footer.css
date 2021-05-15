@@ -6,6 +6,7 @@
   padding: 5rem 0;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
 }
 
 .footer-content div a {
@@ -28,4 +29,13 @@
 .title.footer {
   margin: 1.5rem 0 0.8rem;
   line-height: 2rem;
+}
+
+.footer1 {
+  display: flex;
+  gap: 6rem;
+}
+
+.footer-products div {
+  margin: 0 2rem;
 }

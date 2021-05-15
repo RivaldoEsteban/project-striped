@@ -18,3 +18,254 @@ body {
   padding: 0 8.93rem;
   box-sizing: border-box;
 }
+
+@media (max-width: 500px) {
+  .wrapper {
+    padding: 0 2rem !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .wrapper {
+    padding: 0 2rem !important;
+  }
+  .footer-content {
+    display: block;
+  }
+  .footer-products {
+    justify-content: space-between !important;
+  }
+  .footer-products div {
+    margin: 0;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+  .footer-resource {
+    display: flex !important;
+    justify-content: space-between !important;
+    width: 100% !important;
+  }
+  .title.footer {
+    margin-top: 0;
+  }
+  .empresas {
+    display: flex !important;
+    width: 100%;
+    flex-direction: row;
+  }
+  .business {
+    display: block;
+    width: 50%;
+  }
+  .business img {
+    margin: 3rem 0;
+    width: 120px;
+    height: 45px;
+  }
+  .img1 {
+    width: 100px !important;
+    height: 100px !important;
+  }
+  .img2 {
+    width: 100px;
+    height: 150px !important;
+  }
+  .img3 {
+    width: 100px !important;
+    height: 250px !important;
+  }
+  .img5 {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .img4 {
+    height: 300px !important;
+  }
+  /* .payment-methods {
+    position: relative;
+    height: 500px;
+    border: 1px solid red;
+  }
+  .payment-methods div {
+    position: absolute;
+  }
+  .payment-methods div img {
+    width: 100px !important;
+  } */
+  .img-code img {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 750px) {
+  .api-title-description p {
+    width: 100%;
+  }
+  .wrapper {
+    padding: 0 4rem !important;
+  }
+  .hero-container {
+    display: block;
+  }
+  .hero {
+    width: 100%;
+  }
+  .hero-img-mobil {
+    display: none;
+  }
+  .img1 {
+    max-width: 150px;
+    height: 150px;
+  }
+  .img2 {
+    max-width: 130px !important;
+  }
+  .img4 {
+  }
+  .img5 {
+    max-width: 300px !important;
+  }
+  .api-title-description h2 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .business {
+    flex-wrap: wrap;
+  }
+  .business img {
+    display: block;
+    margin: 1rem 0;
+  }
+  .empresas {
+    display: block;
+    margin: 6rem 0;
+  }
+  .navigation {
+    display: none;
+  }
+  .img4 {
+  }
+  .img5 {
+    max-width: 450px;
+  }
+  .footer-content {
+    flex-wrap: wrap;
+  }
+  .footer-content div {
+    display: block;
+  }
+  .title {
+    /* font-size: 2.5rem !important; */
+  }
+  h2 {
+    font-size: 2rem !important;
+  }
+  .data-api-container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero-img-desktop {
+    display: none;
+  }
+  .hero-img-mobil {
+    left: -100px;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .img1 {
+    width: 200px !important;
+  }
+  .img2 {
+    width: 200px !important;
+    /* height: 200px !important; */
+  }
+  .img3 {
+    height: 300px;
+    width: 160px;
+    margin-top: 70px;
+  }
+  .img4 {
+    width: 150px !important;
+    /* height: 400px !important; */
+    bottom: 0;
+  }
+  .img5 {
+    width: 400px;
+  }
+  .img6 {
+  }
+  .designed-developers-section {
+    display: block;
+    margin: auto;
+  }
+  .designed-developers-description {
+    width: 100%;
+    align-items: center;
+  }
+  .img-code img {
+    margin: 4rem auto;
+    width: 400px;
+    display: block;
+  }
+  .api-functionalities {
+    flex-wrap: wrap;
+  }
+  .api-functionalities {
+    flex-wrap: wrap;
+  }
+  .globalScale-clipPath-background {
+    height: 1600px;
+  }
+  .globalScale-description {
+    margin-top: 180px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .img1 {
+    width: 240px;
+  }
+  .img2 {
+    width: 260px;
+    height: 240px;
+  }
+  .img3 {
+  }
+  .img4 {
+    width: 250px;
+    height: 500px;
+  }
+  .img5 {
+    width: 500px;
+  }
+  .img6 {
+  }
+}
+
+@media (max-width: 1100px) {
+  .title {
+    font-size: 3.1rem;
+  }
+  .wrapper {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .hero-img-mobil {
+    height: 100%;
+    left: -50px;
+    top: 80px;
+  }
+  .hero-img-desktop {
+    height: 90%;
+  }
+  .hero-container {
+    overflow: hidden;
+  }
+}

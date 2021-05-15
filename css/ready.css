@@ -1,7 +1,8 @@
 .ready-section-container {
   display: flex;
   margin: 5rem 0;
-  gap: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
 }
 
 .ready {
